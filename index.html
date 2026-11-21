@@ -41,8 +41,6 @@
     <script src="assets/main/js/vsl-pitch.js" defer></script>
   </head>
 
-  <!-- TODO checkout: the real href on a.buylink; with it, decide whether the
-     page takes TrackControl (platform class + data-funnel on <body>). -->
   <body>
     <svg width="0" height="0" style="position: absolute" aria-hidden="true">
       <symbol id="i-like" viewBox="0 0 24 24">
@@ -97,7 +95,7 @@
 
     <section class="vsl-video">
       <div class="wrap vsl-video__gutter">
-        <div class="vsl-video__box" id="video" data-vdelay="3300" data-stage>
+        <div class="vsl-video__box" id="video" data-vdelay="2851" data-stage>
           <vturb-smartplayer id="vid-6a98935fa71daa06a88a10db" style="display: block; margin: 0 auto; width: 100%;">
             <div class="vturb-player-placeholder" style="position: relative; width: 100%; padding: 177.77777777777777% 0 0; z-index: 0; background-color: black;"></div>
           </vturb-smartplayer>
@@ -106,10 +104,10 @@
       </div>
     </section>
 
-    <!-- Offer. Opened by vturb.min.js at data-vdelay (55:00). -->
+    <!-- Offer. Opened by vturb.min.js at data-vdelay (47:31). -->
     <div class="esconder" data-reveal-scroll="top" data-reveal-scroll-delay="780">
       <section class="vsl-cta" aria-label="Claim your bottles">
-        <a class="vsl-cta__button buylink" href="#" title="3 + 3 Bottles"
+        <a class="vsl-cta__button buylink" href="https://order.wealthpay.io/qo52qotcz7vr?hid=b2lkPW9mZl82NDcxMDc5JmFpZD1hZmZfODUwMDQzMiZ1aWQ9YmxfODY3NTQxMQ%3D%3D&affid=aff_8500432" target="_blank" title="3 + 3 Bottles"
           ><span data-fit-line>CLAIM MY BOTTLES NOW</span></a
         >
         <p
@@ -355,6 +353,13 @@
         </div>
       </div>
     </section>
+
+    <!-- Sentinel tracking (painel.healthhub.site) -->
+    <script>
+    (function(s,e,n,t,i){s[n]=s[n]||function(){(s[n].q=s[n].q||[]).push(arguments)};
+    var js=e.createElement('script');js.async=1;js.src=t+'?tid='+i;
+    e.head.appendChild(js)})(window,document,'sentinel','https://painel.healthhub.site/api/t/tracker.js','d6a8ebb0-bb3b-4328-a19b-05075c8004e7');
+    </script>
 
     <footer class="foot">
       <div class="wrap">
